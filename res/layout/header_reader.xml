@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+  <RelativeLayout
+        android:id="@+id/reader_top_relative_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/fb_reader_topbar_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fb_reader_bottom_bar" />
+
+        <ImageView
+            android:id="@+id/fb_reader_action_setting_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/dot" />
+
+        <ImageView
+            android:id="@+id/fb_reader_action_search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/fb_reader_action_setting_btn"
+            android:background="@drawable/actionsearch_btn" />
+
+        <ImageView
+            android:id="@+id/fb_reader_action_toc_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_toLeftOf="@+id/fb_reader_action_search_btn"
+            android:background="@drawable/toc_icon" />
+
+        
+    </RelativeLayout>
+    
+    
+</RelativeLayout>

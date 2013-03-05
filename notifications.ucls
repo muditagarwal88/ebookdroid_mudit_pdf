@@ -1,0 +1,64 @@
+<class-diagram version="1.0.11" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <interface id="1" corner="BOTTOM_RIGHT" language="java" 
+    name="org.ebookdroid.common.notifications.INotificationManager" project="org.ebookdroid.ui.library.RecentActivity" 
+    file="/org.ebookdroid.ui.library.RecentActivity/src/org/ebookdroid/common/notifications/INotificationManager.java" 
+    binary="false">    
+    <position height="163" width="249" x="41" y="308"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" 
+    name="org.ebookdroid.common.notifications.ModernNotificationManager" 
+    project="org.ebookdroid.ui.library.RecentActivity" 
+    file="/org.ebookdroid.ui.library.RecentActivity/src/org/ebookdroid/common/notifications/ModernNotificationManager.java" 
+    binary="false">    
+    <position height="95" width="249" x="330" y="308"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" 
+    name="org.ebookdroid.common.notifications.AbstractNotificationManager" 
+    project="org.ebookdroid.ui.library.RecentActivity" 
+    file="/org.ebookdroid.ui.library.RecentActivity/src/org/ebookdroid/common/notifications/AbstractNotificationManager.java" 
+    binary="false">    
+    <position height="231" width="190" x="330" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" 
+    name="org.ebookdroid.common.notifications.CompatibilityNotificationManager" 
+    project="org.ebookdroid.ui.library.RecentActivity" 
+    file="/org.ebookdroid.ui.library.RecentActivity/src/org/ebookdroid/common/notifications/CompatibilityNotificationManager.java" 
+    binary="false">    
+    <position height="95" width="249" x="619" y="308"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <generalization id="5">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="6">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <realization id="7">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
